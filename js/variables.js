@@ -54,7 +54,7 @@ var map_markers = [
         "latitude": -22.468692,
         "longitude": -46.682689,
         "icon": "fas fa-glass-cheers", //Check the full list of icons at http://fortawesome.github.io/Font-Awesome/icons/
-        "infoWindow": "Old Ranch Country Club <br> 29033 West Lake Drive, Agoura Hills, CA"
+        "infoWindow": "Haras da Mangueiras, Itapira - SP"
     },
 ];
 
