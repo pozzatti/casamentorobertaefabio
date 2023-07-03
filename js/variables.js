@@ -32,8 +32,8 @@ var contact_form_recaptcha_error_msg = "Error verifying reCaptcha!";
 //COUNTDOWN VARIABLES
 var c_days = "DIAS";                            //Countdown "Days" label
 var c_hours = "HORAS";                          //Countdown "Hours" label
-var c_minutes = "MIN.";                         //Countdown "Minutes" label
-var c_seconds = "SEC.";                         //Countdown "Seconds" label
+var c_minutes = "MINUTOS";                         //Countdown "Minutes" label
+var c_seconds = "SEGUNDOS";                         //Countdown "Seconds" label
 var countdown_end_msg = "Começou!";       //Message to display when the countdown reaches the end
 
 
