@@ -16,9 +16,7 @@ var hero_full_screen = true;                    //If true, the hero section will
 
 //HERO BACKGROUND SLIDESHOW IMAGES
 var slidehow_images = [
-    "https://via.placeholder.com/1920x1080.png",
-    "https://via.placeholder.com/1920x1080.png",
-    "https://via.placeholder.com/1920x1080.png"
+    "images/1.png"
 ];
 
 //TIMELINE PARALLAX
@@ -32,11 +30,11 @@ var contact_form_recaptcha_error_msg = "Error verifying reCaptcha!";
 
 
 //COUNTDOWN VARIABLES
-var c_days = "DAYS";                            //Countdown "Days" label
-var c_hours = "HOURS";                          //Countdown "Hours" label
+var c_days = "DIAS";                            //Countdown "Days" label
+var c_hours = "HORAS";                          //Countdown "Hours" label
 var c_minutes = "MIN.";                         //Countdown "Minutes" label
 var c_seconds = "SEC.";                         //Countdown "Seconds" label
-var countdown_end_msg = "Event Started!";       //Message to display when the countdown reaches the end
+var countdown_end_msg = "Começou!";       //Message to display when the countdown reaches the end
 
 
 //GOOGLE MAP VARIABLES
