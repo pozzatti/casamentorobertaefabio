@@ -870,7 +870,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const data = Object.fromEntries(formData);
         
                 const xhr = new XMLHttpRequest();
-                xhr.open('POST', 'https://casamentorobertaefabio2.vercel.app/confirmacoes/?format=json', true);
+                xhr.open('POST', '/confirmacoes/?format=json', true);
                 xhr.setRequestHeader('Content-Type', 'application/json');
         
                 xhr.onreadystatechange = function () {
