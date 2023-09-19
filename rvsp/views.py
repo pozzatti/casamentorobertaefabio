@@ -10,7 +10,7 @@ from django.views.decorators.csrf import csrf_exempt
 def index(request):
     return render(request, 'rvsp/index.html')
 
-@method_decorator(csrf_exempt, name='dispatch')
+@csrf_exempt
 def verificar_email(request):
     if request.method == 'POST':
         form = ConfirmacaoForm(request.POST)
