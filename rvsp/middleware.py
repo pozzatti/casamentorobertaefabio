@@ -6,11 +6,6 @@ class RestrictAdminMiddleware:
 
     def __call__(self, request):
         if request.path.startswith('/confirmacoes/'):
-            if request.method == 'GET':
-                return self.get_response(request)
-            elif request.user.is_authenticated and request.user.is_staff:
-                return self.get_response(request)
-            else:
-                return HttpResponseForbidden("Acesso proibido para esta URL.")
+            return self.get_response(request)
         else:
             return self.get_response(request)
