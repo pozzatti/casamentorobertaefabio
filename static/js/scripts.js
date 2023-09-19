@@ -872,7 +872,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const xhr = new XMLHttpRequest();
                 xhr.open('POST', '/confirmacoes/?format=json', true);
                 xhr.setRequestHeader('Content-Type', 'application/json');
-                xhr.setRequestHeader('X-CSRFToken', formData.csrfmiddlewaretoken.value);
+                xhr.setRequestHeader('X-CSRFToken', data.csrfmiddlewaretoken);
         
                 xhr.onreadystatechange = function () {
                     if (xhr.readyState === XMLHttpRequest.DONE) {
