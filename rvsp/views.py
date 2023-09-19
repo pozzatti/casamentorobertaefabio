@@ -4,12 +4,13 @@ from .forms import ConfirmacaoForm
 from rest_framework import viewsets
 from .models import Confirmacao
 from .serializers import ConfirmacaoSerializer
+from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 
 def index(request):
     return render(request, 'rvsp/index.html')
 
-@csrf_exempt
+@method_decorator(csrf_exempt, name='dispatch')
 def verificar_email(request):
     if request.method == 'POST':
         form = ConfirmacaoForm(request.POST)
