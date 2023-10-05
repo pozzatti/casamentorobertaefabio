@@ -2880,7 +2880,7 @@ p.center {
   display: flex;
   flex-direction: column;
   padding: 40px 30px;
-  background-color: rgba(142, 174, 186, 1);
+  background-color: rgba(142, 174, 186, 0);
   color: #fff;
 }
 .invite .invite_info h2 {
