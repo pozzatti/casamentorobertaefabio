@@ -69,19 +69,19 @@ h5 {
 
 @media (max-width: 767px) {
   .responsivo {
-      font-size: 14px;
+      font-size: 16px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .responsivo {
-      font-size: 16px;
+      font-size: 18px;
   }
 }
 
 @media (min-width: 1025px) {
   .responsivo {
-      font-size: 18px;
+      font-size: 20px;
   }
 }
 
@@ -2902,7 +2902,7 @@ p.center {
   display: flex;
   flex-direction: column;
   padding: 40px 30px;
-  background-color: rgba(142, 174, 186, 1);
+  background-color: rgba(142, 174, 186, 0);
   color: #fff;
 }
 .invite .invite_info h2 {
