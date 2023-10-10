@@ -63,6 +63,28 @@
   background-size: 100% 1px;
 }
 
+h5 {
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .responsivo {
+      font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .responsivo {
+      font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .responsivo {
+      font-size: 18px;
+  }
+}
+
 /* #Sections with background image
 ================================================== */
 #our-story-title {
